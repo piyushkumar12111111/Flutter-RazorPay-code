@@ -64,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
         'Basic ${base64Encode(utf8.encode('$username:$password'))}';
 
     Map<String, dynamic> body = {
-      "amount": 100,
+      "amount": 100, 
       "currency": "INR",
       "receipt": "rcptid_11"
     };
